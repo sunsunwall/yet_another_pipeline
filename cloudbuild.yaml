@@ -1,0 +1,87 @@
+substitutions:
+  _SERVICE_ACCOUNT: '474388833514-compute@developer.gserviceaccount.com'  # Replace with your actual service account
+  _API_CLIENT_URL: 'https://api-client-abc123.a.run.app'  # Replace with actual Cloud Run URL
+  _BQ_MANAGER_URL: 'https://bq-manager-abc123.a.run.app'  # Replace with actual Cloud Run URL
+  _GCS_MANAGER_URL: 'https://gcs-manager-abc123.a.run.app'  # Replace with actual Cloud Run URL
+  _GCS_BUCKET_NAME: 'reddit_images_bucket'  # From .env or set here
+  _BIGQUERY_DATASET_ID: 'metadata'  # From .env or set here
+  _BIGQUERY_TABLE_ID: 'reddit_images_metadata'  # From .env or set here
+
+steps:
+  # Build and deploy api_client
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'europe-north1-docker.pkg.dev/$PROJECT_ID/images/api-client:$COMMIT_SHA', '-f', 'src/api_client/Dockerfile', '.']
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'europe-north1-docker.pkg.dev/$PROJECT_ID/images/api-client:$COMMIT_SHA']
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - api-client
+      - --image=europe-north1-docker.pkg.dev/$PROJECT_ID/images/api-client:$COMMIT_SHA
+      - --region=europe-north1
+      - --platform=managed
+      - --allow-unauthenticated
+      - --set-env-vars=GCP_PROJECT_ID=$PROJECT_ID
+      - --set-secrets=REDDIT_CLIENT_ID=reddit-client-id:latest,REDDIT_CLIENT_SECRET=reddit-client-secret:latest,REDDIT_USER_AGENT=reddit-user-agent:latest
+
+  # Build and deploy bq_manager
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'europe-north1-docker.pkg.dev/$PROJECT_ID/images/bq-manager:$COMMIT_SHA', '-f', 'src/bq_manager/Dockerfile', '.']
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'europe-north1-docker.pkg.dev/$PROJECT_ID/images/bq-manager:$COMMIT_SHA']
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - bq-manager
+      - --image=europe-north1-docker.pkg.dev/$PROJECT_ID/images/bq-manager:$COMMIT_SHA
+      - --region=europe-north1
+      - --platform=managed
+      - --allow-unauthenticated
+      - --set-env-vars=GCP_PROJECT_ID=$PROJECT_ID,BIGQUERY_DATASET_ID=${_BIGQUERY_DATASET_ID},BIGQUERY_TABLE_ID=${_BIGQUERY_TABLE_ID}
+      - --set-secrets=REDDIT_CLIENT_ID=reddit-client-id:latest,REDDIT_CLIENT_SECRET=reddit-client-secret:latest,REDDIT_USER_AGENT=reddit-user-agent:latest
+      - --service-account=${_SERVICE_ACCOUNT}
+
+  # Build and deploy gcs_manager
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'europe-north1-docker.pkg.dev/$PROJECT_ID/images/gcs-manager:$COMMIT_SHA', '-f', 'src/gcs_manager/Dockerfile', '.']
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'europe-north1-docker.pkg.dev/$PROJECT_ID/images/gcs-manager:$COMMIT_SHA']
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - gcs-manager
+      - --image=europe-north1-docker.pkg.dev/$PROJECT_ID/images/gcs-manager:$COMMIT_SHA
+      - --region=europe-north1
+      - --platform=managed
+      - --allow-unauthenticated
+      - --set-env-vars=GCP_PROJECT_ID=$PROJECT_ID,GCS_BUCKET_NAME=${_GCS_BUCKET_NAME}
+      - --set-secrets=REDDIT_CLIENT_ID=reddit-client-id:latest,REDDIT_CLIENT_SECRET=reddit-client-secret:latest,REDDIT_USER_AGENT=reddit-user-agent:latest
+      - --service-account=${_SERVICE_ACCOUNT}
+
+  # Build and deploy orchestrator
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'europe-north1-docker.pkg.dev/$PROJECT_ID/images/orchestrator:$COMMIT_SHA', '-f', 'src/orchestrator/Dockerfile', '.']
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'europe-north1-docker.pkg.dev/$PROJECT_ID/images/orchestrator:$COMMIT_SHA']
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - orchestrator
+      - --image=europe-north1-docker.pkg.dev/$PROJECT_ID/images/orchestrator:$COMMIT_SHA
+      - --region=europe-north1
+      - --platform=managed
+      - --allow-unauthenticated
+      - --set-env-vars=GCP_PROJECT_ID=$PROJECT_ID,API_CLIENT_URL=${_API_CLIENT_URL},BQ_MANAGER_URL=${_BQ_MANAGER_URL},GCS_MANAGER_URL=${_GCS_MANAGER_URL}
+      - --set-secrets=REDDIT_CLIENT_ID=reddit-client-id:latest,REDDIT_CLIENT_SECRET=reddit-client-secret:latest,REDDIT_USER_AGENT=reddit-user-agent:latest
+      - --service-account=${_SERVICE_ACCOUNT}
+
+options:
+  logging: CLOUD_LOGGING_ONLY
