@@ -1,0 +1,522 @@
+22:23:40 |kebab_case.py (36) |ERROR:| Error during kebab-case conversion tests: expected str, bytes or os.PathLike object, not int
+22:24:12 |kebab_case.py (34) |INFO:| Original: adas   adasdaere /// adasd.jpg --> Kebab-case: adas-adasdaere-adasd.jpg
+22:24:12 |kebab_case.py (34) |INFO:| Original: My Image_File.PNG --> Kebab-case: my-image-file.png
+22:40:25 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ldwe9ud70yof1.jpeg
+22:40:25 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ldwe9ud70yof1.jpeg
+22:40:25 |gcs_manager.py (42) |INFO:| Uploaded ldwe9ud70yof1.jpeg --> gs://reddit_images_bucket/ldwe9ud70yof1.jpeg
+22:51:08 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ldwe9ud70yof1.jpeg
+22:51:09 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ldwe9ud70yof1.jpeg
+22:51:09 |gcs_manager.py (42) |INFO:| Uploaded ldwe9ud70yof1.jpeg --> gs://reddit_images_bucket/ldwe9ud70yof1.jpeg
+22:51:09 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/hswdh684myof1.jpeg
+22:51:09 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/hswdh684myof1.jpeg
+22:51:09 |gcs_manager.py (42) |INFO:| Uploaded hswdh684myof1.jpeg --> gs://reddit_images_bucket/hswdh684myof1.jpeg
+22:51:09 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/wsss3ydgxyof1.jpeg
+22:51:09 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/wsss3ydgxyof1.jpeg
+22:51:09 |gcs_manager.py (42) |INFO:| Uploaded wsss3ydgxyof1.jpeg --> gs://reddit_images_bucket/wsss3ydgxyof1.jpeg
+22:51:09 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ysb5h2o1yyof1.jpeg
+22:51:09 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ysb5h2o1yyof1.jpeg
+22:51:09 |gcs_manager.py (42) |INFO:| Uploaded ysb5h2o1yyof1.jpeg --> gs://reddit_images_bucket/ysb5h2o1yyof1.jpeg
+22:51:09 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/qgb8l201ywof1.jpeg
+22:51:09 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/qgb8l201ywof1.jpeg
+22:51:09 |gcs_manager.py (42) |INFO:| Uploaded qgb8l201ywof1.jpeg --> gs://reddit_images_bucket/qgb8l201ywof1.jpeg
+22:51:09 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/fhohjnkpzxof1.jpeg
+22:51:09 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/fhohjnkpzxof1.jpeg
+22:51:10 |gcs_manager.py (42) |INFO:| Uploaded fhohjnkpzxof1.jpeg --> gs://reddit_images_bucket/fhohjnkpzxof1.jpeg
+22:51:10 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ivncgulz3uof1.jpeg
+22:51:10 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ivncgulz3uof1.jpeg
+22:51:10 |gcs_manager.py (42) |INFO:| Uploaded ivncgulz3uof1.jpeg --> gs://reddit_images_bucket/ivncgulz3uof1.jpeg
+22:51:10 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/15j714escxof1.jpeg
+22:51:10 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/15j714escxof1.jpeg
+22:51:10 |gcs_manager.py (42) |INFO:| Uploaded 15j714escxof1.jpeg --> gs://reddit_images_bucket/15j714escxof1.jpeg
+22:51:10 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/gkl9sjbf5xof1.jpeg
+22:51:10 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/gkl9sjbf5xof1.jpeg
+22:51:10 |gcs_manager.py (42) |INFO:| Uploaded gkl9sjbf5xof1.jpeg --> gs://reddit_images_bucket/gkl9sjbf5xof1.jpeg
+22:59:40 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfyye4, filename=ldwe9ud70yof1.jpeg
+22:59:40 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng20rr, filename=hswdh684myof1.jpeg
+22:59:40 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng3n1u, filename=wsss3ydgxyof1.jpeg
+22:59:40 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng3ptp, filename=ysb5h2o1yyof1.jpeg
+22:59:40 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfukw2, filename=qgb8l201ywof1.jpeg
+22:59:40 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfyvzn, filename=fhohjnkpzxof1.jpeg
+22:59:40 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfw2na, filename=15j714escxof1.jpeg
+22:59:40 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfkqel, filename=ivncgulz3uof1.jpeg
+22:59:40 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfvao0, filename=gkl9sjbf5xof1.jpeg
+22:59:41 |bq_manager.py (54) |INFO:| Inserted 9 rows into draft-data-pipeline.metadata.reddit_images_metadata
+22:59:41 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ldwe9ud70yof1.jpeg
+22:59:41 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ldwe9ud70yof1.jpeg
+22:59:41 |gcs_manager.py (42) |INFO:| Uploaded ldwe9ud70yof1.jpeg --> gs://reddit_images_bucket/ldwe9ud70yof1.jpeg
+22:59:41 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/hswdh684myof1.jpeg
+22:59:41 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/hswdh684myof1.jpeg
+22:59:41 |gcs_manager.py (42) |INFO:| Uploaded hswdh684myof1.jpeg --> gs://reddit_images_bucket/hswdh684myof1.jpeg
+22:59:41 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/wsss3ydgxyof1.jpeg
+22:59:41 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/wsss3ydgxyof1.jpeg
+22:59:42 |gcs_manager.py (42) |INFO:| Uploaded wsss3ydgxyof1.jpeg --> gs://reddit_images_bucket/wsss3ydgxyof1.jpeg
+22:59:42 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ysb5h2o1yyof1.jpeg
+22:59:42 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ysb5h2o1yyof1.jpeg
+22:59:42 |gcs_manager.py (42) |INFO:| Uploaded ysb5h2o1yyof1.jpeg --> gs://reddit_images_bucket/ysb5h2o1yyof1.jpeg
+22:59:42 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/qgb8l201ywof1.jpeg
+22:59:42 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/qgb8l201ywof1.jpeg
+22:59:42 |gcs_manager.py (42) |INFO:| Uploaded qgb8l201ywof1.jpeg --> gs://reddit_images_bucket/qgb8l201ywof1.jpeg
+22:59:42 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/fhohjnkpzxof1.jpeg
+22:59:42 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/fhohjnkpzxof1.jpeg
+22:59:42 |gcs_manager.py (42) |INFO:| Uploaded fhohjnkpzxof1.jpeg --> gs://reddit_images_bucket/fhohjnkpzxof1.jpeg
+22:59:42 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/15j714escxof1.jpeg
+22:59:42 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/15j714escxof1.jpeg
+22:59:42 |gcs_manager.py (42) |INFO:| Uploaded 15j714escxof1.jpeg --> gs://reddit_images_bucket/15j714escxof1.jpeg
+22:59:43 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ivncgulz3uof1.jpeg
+22:59:43 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ivncgulz3uof1.jpeg
+22:59:43 |gcs_manager.py (42) |INFO:| Uploaded ivncgulz3uof1.jpeg --> gs://reddit_images_bucket/ivncgulz3uof1.jpeg
+22:59:43 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/gkl9sjbf5xof1.jpeg
+22:59:43 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/gkl9sjbf5xof1.jpeg
+22:59:43 |gcs_manager.py (42) |INFO:| Uploaded gkl9sjbf5xof1.jpeg --> gs://reddit_images_bucket/gkl9sjbf5xof1.jpeg
+23:01:35 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfyye4, filename=ldwe9ud70yof1.jpeg
+23:01:35 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng20rr, filename=hswdh684myof1.jpeg
+23:01:35 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng3n1u, filename=wsss3ydgxyof1.jpeg
+23:01:35 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng3ptp, filename=ysb5h2o1yyof1.jpeg
+23:01:35 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfukw2, filename=qgb8l201ywof1.jpeg
+23:01:35 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfyvzn, filename=fhohjnkpzxof1.jpeg
+23:01:35 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfw2na, filename=15j714escxof1.jpeg
+23:01:35 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfkqel, filename=ivncgulz3uof1.jpeg
+23:01:35 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfvao0, filename=gkl9sjbf5xof1.jpeg
+23:01:35 |bq_manager.py (50) |INFO:| Attempting to insert 9 rows into table draft-data-pipeline.metadata.reddit_images_metadata
+23:01:35 |bq_manager.py (55) |INFO:| Inserted 9 rows into draft-data-pipeline.metadata.reddit_images_metadata
+23:01:36 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ldwe9ud70yof1.jpeg
+23:01:36 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ldwe9ud70yof1.jpeg
+23:01:36 |gcs_manager.py (42) |INFO:| Uploaded ldwe9ud70yof1.jpeg --> gs://reddit_images_bucket/ldwe9ud70yof1.jpeg
+23:01:36 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/hswdh684myof1.jpeg
+23:01:36 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/hswdh684myof1.jpeg
+23:01:36 |gcs_manager.py (42) |INFO:| Uploaded hswdh684myof1.jpeg --> gs://reddit_images_bucket/hswdh684myof1.jpeg
+23:01:36 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/wsss3ydgxyof1.jpeg
+23:01:36 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/wsss3ydgxyof1.jpeg
+23:01:36 |gcs_manager.py (42) |INFO:| Uploaded wsss3ydgxyof1.jpeg --> gs://reddit_images_bucket/wsss3ydgxyof1.jpeg
+23:01:37 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ysb5h2o1yyof1.jpeg
+23:01:37 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ysb5h2o1yyof1.jpeg
+23:01:37 |gcs_manager.py (42) |INFO:| Uploaded ysb5h2o1yyof1.jpeg --> gs://reddit_images_bucket/ysb5h2o1yyof1.jpeg
+23:01:37 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/qgb8l201ywof1.jpeg
+23:01:37 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/qgb8l201ywof1.jpeg
+23:01:37 |gcs_manager.py (42) |INFO:| Uploaded qgb8l201ywof1.jpeg --> gs://reddit_images_bucket/qgb8l201ywof1.jpeg
+23:01:37 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/fhohjnkpzxof1.jpeg
+23:01:37 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/fhohjnkpzxof1.jpeg
+23:01:37 |gcs_manager.py (42) |INFO:| Uploaded fhohjnkpzxof1.jpeg --> gs://reddit_images_bucket/fhohjnkpzxof1.jpeg
+23:01:37 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/15j714escxof1.jpeg
+23:01:37 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/15j714escxof1.jpeg
+23:01:37 |gcs_manager.py (42) |INFO:| Uploaded 15j714escxof1.jpeg --> gs://reddit_images_bucket/15j714escxof1.jpeg
+23:01:37 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ivncgulz3uof1.jpeg
+23:01:37 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ivncgulz3uof1.jpeg
+23:01:37 |gcs_manager.py (42) |INFO:| Uploaded ivncgulz3uof1.jpeg --> gs://reddit_images_bucket/ivncgulz3uof1.jpeg
+23:01:37 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/gkl9sjbf5xof1.jpeg
+23:01:37 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/gkl9sjbf5xof1.jpeg
+23:01:37 |gcs_manager.py (42) |INFO:| Uploaded gkl9sjbf5xof1.jpeg --> gs://reddit_images_bucket/gkl9sjbf5xof1.jpeg
+23:02:56 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfyye4, filename=ldwe9ud70yof1.jpeg
+23:02:56 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng20rr, filename=hswdh684myof1.jpeg
+23:02:56 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng3n1u, filename=wsss3ydgxyof1.jpeg
+23:02:56 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng3ptp, filename=ysb5h2o1yyof1.jpeg
+23:02:56 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfukw2, filename=qgb8l201ywof1.jpeg
+23:02:56 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfyvzn, filename=fhohjnkpzxof1.jpeg
+23:02:56 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfw2na, filename=15j714escxof1.jpeg
+23:02:56 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfkqel, filename=ivncgulz3uof1.jpeg
+23:02:56 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfvao0, filename=gkl9sjbf5xof1.jpeg
+23:02:56 |bq_manager.py (50) |INFO:| Attempting to insert 9 rows into table draft-data-pipeline.metadata.reddit_images_metadata
+23:02:56 |bq_manager.py (57) |INFO:| Inserted 9 rows into draft-data-pipeline.metadata.reddit_images_metadata
+23:02:56 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ldwe9ud70yof1.jpeg
+23:02:56 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ldwe9ud70yof1.jpeg
+23:02:56 |gcs_manager.py (42) |INFO:| Uploaded ldwe9ud70yof1.jpeg --> gs://reddit_images_bucket/ldwe9ud70yof1.jpeg
+23:02:56 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/hswdh684myof1.jpeg
+23:02:56 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/hswdh684myof1.jpeg
+23:02:57 |gcs_manager.py (42) |INFO:| Uploaded hswdh684myof1.jpeg --> gs://reddit_images_bucket/hswdh684myof1.jpeg
+23:02:57 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/wsss3ydgxyof1.jpeg
+23:02:57 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/wsss3ydgxyof1.jpeg
+23:02:57 |gcs_manager.py (42) |INFO:| Uploaded wsss3ydgxyof1.jpeg --> gs://reddit_images_bucket/wsss3ydgxyof1.jpeg
+23:02:57 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ysb5h2o1yyof1.jpeg
+23:02:57 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ysb5h2o1yyof1.jpeg
+23:02:57 |gcs_manager.py (42) |INFO:| Uploaded ysb5h2o1yyof1.jpeg --> gs://reddit_images_bucket/ysb5h2o1yyof1.jpeg
+23:02:57 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/qgb8l201ywof1.jpeg
+23:02:57 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/qgb8l201ywof1.jpeg
+23:02:57 |gcs_manager.py (42) |INFO:| Uploaded qgb8l201ywof1.jpeg --> gs://reddit_images_bucket/qgb8l201ywof1.jpeg
+23:02:57 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/fhohjnkpzxof1.jpeg
+23:02:57 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/fhohjnkpzxof1.jpeg
+23:02:57 |gcs_manager.py (42) |INFO:| Uploaded fhohjnkpzxof1.jpeg --> gs://reddit_images_bucket/fhohjnkpzxof1.jpeg
+23:02:57 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/15j714escxof1.jpeg
+23:02:57 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/15j714escxof1.jpeg
+23:02:57 |gcs_manager.py (42) |INFO:| Uploaded 15j714escxof1.jpeg --> gs://reddit_images_bucket/15j714escxof1.jpeg
+23:02:57 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ivncgulz3uof1.jpeg
+23:02:57 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ivncgulz3uof1.jpeg
+23:02:57 |gcs_manager.py (42) |INFO:| Uploaded ivncgulz3uof1.jpeg --> gs://reddit_images_bucket/ivncgulz3uof1.jpeg
+23:02:58 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/gkl9sjbf5xof1.jpeg
+23:02:58 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/gkl9sjbf5xof1.jpeg
+23:02:58 |gcs_manager.py (42) |INFO:| Uploaded gkl9sjbf5xof1.jpeg --> gs://reddit_images_bucket/gkl9sjbf5xof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfyye4, filename=ldwe9ud70yof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng20rr, filename=hswdh684myof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng3n1u, filename=wsss3ydgxyof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng3ptp, filename=ysb5h2o1yyof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfukw2, filename=qgb8l201ywof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfyvzn, filename=fhohjnkpzxof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfw2na, filename=15j714escxof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfkqel, filename=ivncgulz3uof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfvao0, filename=gkl9sjbf5xof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng54pw, filename=xn8yp9ep7zof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfpj44, filename=q7y6b56xdvof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nf6w64, filename=r4paqclw9rof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfksbu, filename=3z4zspjg4uof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng1umf, filename=52znf4xvkyof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfu3q3, filename=sn0nec4vswof1.png
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nf2q02, filename=ymo4fdc0gqof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfawrq, filename=lcvn8b4u1sof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng2evc, filename=qzj1xp6woyof1.png
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfjbfg, filename=pmc3738rrtof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfb5zf, filename=9vzoktgn3sof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfzalm, filename=xj2upuiq2yof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng89mh, filename=7miuq5mruzof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng5whk, filename=x88ag1e3dzof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfphfz, filename=nuof8pzedvof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng2onw, filename=dbhl52duqyof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfbf4z, filename=v4xgdfjg5sof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nf5mdl, filename=8yl3fgh01rof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng1f03, filename=a5im63dthyof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfe0lg, filename=vk5gw93onsof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfg0i4, filename=uaaz8a6n1tof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfxft2, filename=lww0ycycoxof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfw6nj, filename=xtxg4wisdxof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfku5g, filename=4eskj1rw4uof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfshm3, filename=f8nzgn4cawof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nf5mkw, filename=oj3645121rof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfxgx7, filename=oqt5hqyloxof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nft4io, filename=jqgahokshwof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfw1yx, filename=1b33og8mcxof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nf7ppl, filename=xn4zbrchfrof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng5g8h, filename=bb1guahy9zof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng80r3, filename=0ot3qmgwszof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng4o14, filename=5dpqq5bi4zof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfuodq, filename=i899vgrzywof1.png
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ng6yt1, filename=l4315b20lzof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nf0dzf, filename=j1emh1b5wpof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1neyyfm, filename=8y59os18hpof1.png
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfwab3, filename=6009yc3pexof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfr0l6, filename=qz1hq9cqtvof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfzoq8, filename=e8gfuevj5yof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nf88o0, filename=gdor8cf5jrof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfg15o, filename=hluj20ru1tof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nexciu, filename=01i3szzgyoof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfc32m, filename=k5u8s792asof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nftbbt, filename=4753yhiyjwof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nefzdv, filename=c0co9pztskof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfdg3n, filename=0dqejn3mdlof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfonxy, filename=v09bejrw4vof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nftz01, filename=cgos13scrwof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfgjum, filename=30kxatedwsof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1negic3, filename=d0y5gb3fwkof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfdin5, filename=0xkhdoljglof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1newza0, filename=htxzdyq1uoof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1neh1p0, filename=dhsm9yv30lof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1neslfn, filename=k58jpswfjnof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfh4lr, filename=26n39nq1atof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nep00k, filename=n4bay5eknmof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1neybny, filename=nddyqpm3apof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nesvn5, filename=8v6qua03mnof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nf863c, filename=jg1vv06oirof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ne7rbc, filename=19zn5sip6jof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfy9f4, filename=ewpra36vuxof1.png
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfrr86, filename=41kdo2512wof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1neih8c, filename=sfpone1y9lof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfyh9n, filename=ewpra36vuxof1.png
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1neyrn7, filename=nnfsd7b8epof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nfuurr, filename=hi9ujnxu0xof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1neejtj, filename=o56sjyg7jkof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1ne88bz, filename=ctzlpgihajof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nf2voy, filename=e7mrest7hqof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nefb6s, filename=om9w757bokof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nf2pta, filename=hrwgvv3jfqof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1neu6il, filename=td0uuxzoynof1.png
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nef82p, filename=ujadb92pnkof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nedge1, filename=fzboehdvbkof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nehapu, filename=1c4iw99t1lof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1newmej, filename=7ermr2pupoof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nee2vp, filename=jaa9sah3gkof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nf811j, filename=wve4s4dqhrof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nefdmm, filename=x5iviy4rokof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nf6x6f, filename=n41lpcn0arof1.png
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nedb3g, filename=ka6w93puakof1.jpeg
+23:03:57 |bq_manager.py (47) |INFO:| Prepared row for insertion: id=1nesj7z, filename=9c2u5o2vinof1.jpeg
+23:03:57 |bq_manager.py (50) |INFO:| Attempting to insert 92 rows into table draft-data-pipeline.metadata.reddit_images_metadata
+23:03:58 |bq_manager.py (57) |INFO:| Inserted 92 rows into draft-data-pipeline.metadata.reddit_images_metadata
+23:03:58 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ldwe9ud70yof1.jpeg
+23:03:58 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ldwe9ud70yof1.jpeg
+23:03:58 |gcs_manager.py (42) |INFO:| Uploaded ldwe9ud70yof1.jpeg --> gs://reddit_images_bucket/ldwe9ud70yof1.jpeg
+23:03:58 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/hswdh684myof1.jpeg
+23:03:58 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/hswdh684myof1.jpeg
+23:03:58 |gcs_manager.py (42) |INFO:| Uploaded hswdh684myof1.jpeg --> gs://reddit_images_bucket/hswdh684myof1.jpeg
+23:03:58 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/wsss3ydgxyof1.jpeg
+23:03:58 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/wsss3ydgxyof1.jpeg
+23:03:58 |gcs_manager.py (42) |INFO:| Uploaded wsss3ydgxyof1.jpeg --> gs://reddit_images_bucket/wsss3ydgxyof1.jpeg
+23:03:58 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ysb5h2o1yyof1.jpeg
+23:03:58 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ysb5h2o1yyof1.jpeg
+23:03:58 |gcs_manager.py (42) |INFO:| Uploaded ysb5h2o1yyof1.jpeg --> gs://reddit_images_bucket/ysb5h2o1yyof1.jpeg
+23:03:59 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/qgb8l201ywof1.jpeg
+23:03:59 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/qgb8l201ywof1.jpeg
+23:03:59 |gcs_manager.py (42) |INFO:| Uploaded qgb8l201ywof1.jpeg --> gs://reddit_images_bucket/qgb8l201ywof1.jpeg
+23:03:59 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/fhohjnkpzxof1.jpeg
+23:03:59 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/fhohjnkpzxof1.jpeg
+23:03:59 |gcs_manager.py (42) |INFO:| Uploaded fhohjnkpzxof1.jpeg --> gs://reddit_images_bucket/fhohjnkpzxof1.jpeg
+23:03:59 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/15j714escxof1.jpeg
+23:03:59 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/15j714escxof1.jpeg
+23:03:59 |gcs_manager.py (42) |INFO:| Uploaded 15j714escxof1.jpeg --> gs://reddit_images_bucket/15j714escxof1.jpeg
+23:03:59 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ivncgulz3uof1.jpeg
+23:03:59 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ivncgulz3uof1.jpeg
+23:03:59 |gcs_manager.py (42) |INFO:| Uploaded ivncgulz3uof1.jpeg --> gs://reddit_images_bucket/ivncgulz3uof1.jpeg
+23:03:59 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/gkl9sjbf5xof1.jpeg
+23:03:59 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/gkl9sjbf5xof1.jpeg
+23:03:59 |gcs_manager.py (42) |INFO:| Uploaded gkl9sjbf5xof1.jpeg --> gs://reddit_images_bucket/gkl9sjbf5xof1.jpeg
+23:03:59 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/xn8yp9ep7zof1.jpeg
+23:03:59 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/xn8yp9ep7zof1.jpeg
+23:03:59 |gcs_manager.py (42) |INFO:| Uploaded xn8yp9ep7zof1.jpeg --> gs://reddit_images_bucket/xn8yp9ep7zof1.jpeg
+23:03:59 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/q7y6b56xdvof1.jpeg
+23:04:00 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/q7y6b56xdvof1.jpeg
+23:04:00 |gcs_manager.py (42) |INFO:| Uploaded q7y6b56xdvof1.jpeg --> gs://reddit_images_bucket/q7y6b56xdvof1.jpeg
+23:04:00 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/r4paqclw9rof1.jpeg
+23:04:00 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/r4paqclw9rof1.jpeg
+23:04:00 |gcs_manager.py (42) |INFO:| Uploaded r4paqclw9rof1.jpeg --> gs://reddit_images_bucket/r4paqclw9rof1.jpeg
+23:04:00 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/3z4zspjg4uof1.jpeg
+23:04:00 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/3z4zspjg4uof1.jpeg
+23:04:00 |gcs_manager.py (42) |INFO:| Uploaded 3z4zspjg4uof1.jpeg --> gs://reddit_images_bucket/3z4zspjg4uof1.jpeg
+23:04:00 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/52znf4xvkyof1.jpeg
+23:04:00 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/52znf4xvkyof1.jpeg
+23:04:00 |gcs_manager.py (42) |INFO:| Uploaded 52znf4xvkyof1.jpeg --> gs://reddit_images_bucket/52znf4xvkyof1.jpeg
+23:04:00 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/sn0nec4vswof1.png
+23:04:00 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/sn0nec4vswof1.png
+23:04:00 |gcs_manager.py (42) |INFO:| Uploaded sn0nec4vswof1.png --> gs://reddit_images_bucket/sn0nec4vswof1.png
+23:04:00 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ymo4fdc0gqof1.jpeg
+23:04:00 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ymo4fdc0gqof1.jpeg
+23:04:00 |gcs_manager.py (42) |INFO:| Uploaded ymo4fdc0gqof1.jpeg --> gs://reddit_images_bucket/ymo4fdc0gqof1.jpeg
+23:04:00 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/lcvn8b4u1sof1.jpeg
+23:04:00 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/lcvn8b4u1sof1.jpeg
+23:04:00 |gcs_manager.py (42) |INFO:| Uploaded lcvn8b4u1sof1.jpeg --> gs://reddit_images_bucket/lcvn8b4u1sof1.jpeg
+23:04:00 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/qzj1xp6woyof1.png
+23:04:00 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/qzj1xp6woyof1.png
+23:04:01 |gcs_manager.py (42) |INFO:| Uploaded qzj1xp6woyof1.png --> gs://reddit_images_bucket/qzj1xp6woyof1.png
+23:04:01 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/pmc3738rrtof1.jpeg
+23:04:01 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/pmc3738rrtof1.jpeg
+23:04:01 |gcs_manager.py (42) |INFO:| Uploaded pmc3738rrtof1.jpeg --> gs://reddit_images_bucket/pmc3738rrtof1.jpeg
+23:04:01 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/9vzoktgn3sof1.jpeg
+23:04:01 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/9vzoktgn3sof1.jpeg
+23:04:01 |gcs_manager.py (42) |INFO:| Uploaded 9vzoktgn3sof1.jpeg --> gs://reddit_images_bucket/9vzoktgn3sof1.jpeg
+23:04:01 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/xj2upuiq2yof1.jpeg
+23:04:01 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/xj2upuiq2yof1.jpeg
+23:04:01 |gcs_manager.py (42) |INFO:| Uploaded xj2upuiq2yof1.jpeg --> gs://reddit_images_bucket/xj2upuiq2yof1.jpeg
+23:04:01 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/7miuq5mruzof1.jpeg
+23:04:01 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/7miuq5mruzof1.jpeg
+23:04:01 |gcs_manager.py (42) |INFO:| Uploaded 7miuq5mruzof1.jpeg --> gs://reddit_images_bucket/7miuq5mruzof1.jpeg
+23:04:01 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/x88ag1e3dzof1.jpeg
+23:04:01 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/x88ag1e3dzof1.jpeg
+23:04:01 |gcs_manager.py (42) |INFO:| Uploaded x88ag1e3dzof1.jpeg --> gs://reddit_images_bucket/x88ag1e3dzof1.jpeg
+23:04:01 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/nuof8pzedvof1.jpeg
+23:04:01 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/nuof8pzedvof1.jpeg
+23:04:01 |gcs_manager.py (42) |INFO:| Uploaded nuof8pzedvof1.jpeg --> gs://reddit_images_bucket/nuof8pzedvof1.jpeg
+23:04:01 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/dbhl52duqyof1.jpeg
+23:04:01 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/dbhl52duqyof1.jpeg
+23:04:02 |gcs_manager.py (42) |INFO:| Uploaded dbhl52duqyof1.jpeg --> gs://reddit_images_bucket/dbhl52duqyof1.jpeg
+23:04:02 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/v4xgdfjg5sof1.jpeg
+23:04:02 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/v4xgdfjg5sof1.jpeg
+23:04:02 |gcs_manager.py (42) |INFO:| Uploaded v4xgdfjg5sof1.jpeg --> gs://reddit_images_bucket/v4xgdfjg5sof1.jpeg
+23:04:02 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/8yl3fgh01rof1.jpeg
+23:04:02 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/8yl3fgh01rof1.jpeg
+23:04:02 |gcs_manager.py (42) |INFO:| Uploaded 8yl3fgh01rof1.jpeg --> gs://reddit_images_bucket/8yl3fgh01rof1.jpeg
+23:04:02 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/a5im63dthyof1.jpeg
+23:04:02 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/a5im63dthyof1.jpeg
+23:04:02 |gcs_manager.py (42) |INFO:| Uploaded a5im63dthyof1.jpeg --> gs://reddit_images_bucket/a5im63dthyof1.jpeg
+23:04:02 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/vk5gw93onsof1.jpeg
+23:04:02 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/vk5gw93onsof1.jpeg
+23:04:02 |gcs_manager.py (42) |INFO:| Uploaded vk5gw93onsof1.jpeg --> gs://reddit_images_bucket/vk5gw93onsof1.jpeg
+23:04:02 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/uaaz8a6n1tof1.jpeg
+23:04:02 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/uaaz8a6n1tof1.jpeg
+23:04:02 |gcs_manager.py (42) |INFO:| Uploaded uaaz8a6n1tof1.jpeg --> gs://reddit_images_bucket/uaaz8a6n1tof1.jpeg
+23:04:02 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/lww0ycycoxof1.jpeg
+23:04:02 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/lww0ycycoxof1.jpeg
+23:04:02 |gcs_manager.py (42) |INFO:| Uploaded lww0ycycoxof1.jpeg --> gs://reddit_images_bucket/lww0ycycoxof1.jpeg
+23:04:02 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/xtxg4wisdxof1.jpeg
+23:04:02 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/xtxg4wisdxof1.jpeg
+23:04:02 |gcs_manager.py (42) |INFO:| Uploaded xtxg4wisdxof1.jpeg --> gs://reddit_images_bucket/xtxg4wisdxof1.jpeg
+23:04:02 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/4eskj1rw4uof1.jpeg
+23:04:02 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/4eskj1rw4uof1.jpeg
+23:04:03 |gcs_manager.py (42) |INFO:| Uploaded 4eskj1rw4uof1.jpeg --> gs://reddit_images_bucket/4eskj1rw4uof1.jpeg
+23:04:03 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/f8nzgn4cawof1.jpeg
+23:04:03 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/f8nzgn4cawof1.jpeg
+23:04:03 |gcs_manager.py (42) |INFO:| Uploaded f8nzgn4cawof1.jpeg --> gs://reddit_images_bucket/f8nzgn4cawof1.jpeg
+23:04:03 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/oj3645121rof1.jpeg
+23:04:03 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/oj3645121rof1.jpeg
+23:04:03 |gcs_manager.py (42) |INFO:| Uploaded oj3645121rof1.jpeg --> gs://reddit_images_bucket/oj3645121rof1.jpeg
+23:04:03 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/oqt5hqyloxof1.jpeg
+23:04:03 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/oqt5hqyloxof1.jpeg
+23:04:03 |gcs_manager.py (42) |INFO:| Uploaded oqt5hqyloxof1.jpeg --> gs://reddit_images_bucket/oqt5hqyloxof1.jpeg
+23:04:03 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/jqgahokshwof1.jpeg
+23:04:03 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/jqgahokshwof1.jpeg
+23:04:03 |gcs_manager.py (42) |INFO:| Uploaded jqgahokshwof1.jpeg --> gs://reddit_images_bucket/jqgahokshwof1.jpeg
+23:04:03 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/1b33og8mcxof1.jpeg
+23:04:03 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/1b33og8mcxof1.jpeg
+23:04:03 |gcs_manager.py (42) |INFO:| Uploaded 1b33og8mcxof1.jpeg --> gs://reddit_images_bucket/1b33og8mcxof1.jpeg
+23:04:03 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/xn4zbrchfrof1.jpeg
+23:04:03 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/xn4zbrchfrof1.jpeg
+23:04:03 |gcs_manager.py (42) |INFO:| Uploaded xn4zbrchfrof1.jpeg --> gs://reddit_images_bucket/xn4zbrchfrof1.jpeg
+23:04:03 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/bb1guahy9zof1.jpeg
+23:04:03 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/bb1guahy9zof1.jpeg
+23:04:04 |gcs_manager.py (42) |INFO:| Uploaded bb1guahy9zof1.jpeg --> gs://reddit_images_bucket/bb1guahy9zof1.jpeg
+23:04:04 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/0ot3qmgwszof1.jpeg
+23:04:04 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/0ot3qmgwszof1.jpeg
+23:04:04 |gcs_manager.py (42) |INFO:| Uploaded 0ot3qmgwszof1.jpeg --> gs://reddit_images_bucket/0ot3qmgwszof1.jpeg
+23:04:04 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/5dpqq5bi4zof1.jpeg
+23:04:04 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/5dpqq5bi4zof1.jpeg
+23:04:04 |gcs_manager.py (42) |INFO:| Uploaded 5dpqq5bi4zof1.jpeg --> gs://reddit_images_bucket/5dpqq5bi4zof1.jpeg
+23:04:05 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/i899vgrzywof1.png
+23:04:05 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/i899vgrzywof1.png
+23:04:05 |gcs_manager.py (42) |INFO:| Uploaded i899vgrzywof1.png --> gs://reddit_images_bucket/i899vgrzywof1.png
+23:04:05 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/l4315b20lzof1.jpeg
+23:04:05 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/l4315b20lzof1.jpeg
+23:04:05 |gcs_manager.py (42) |INFO:| Uploaded l4315b20lzof1.jpeg --> gs://reddit_images_bucket/l4315b20lzof1.jpeg
+23:04:05 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/j1emh1b5wpof1.jpeg
+23:04:05 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/j1emh1b5wpof1.jpeg
+23:04:05 |gcs_manager.py (42) |INFO:| Uploaded j1emh1b5wpof1.jpeg --> gs://reddit_images_bucket/j1emh1b5wpof1.jpeg
+23:04:05 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/8y59os18hpof1.png
+23:04:05 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/8y59os18hpof1.png
+23:04:05 |gcs_manager.py (42) |INFO:| Uploaded 8y59os18hpof1.png --> gs://reddit_images_bucket/8y59os18hpof1.png
+23:04:06 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/6009yc3pexof1.jpeg
+23:04:06 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/6009yc3pexof1.jpeg
+23:04:06 |gcs_manager.py (42) |INFO:| Uploaded 6009yc3pexof1.jpeg --> gs://reddit_images_bucket/6009yc3pexof1.jpeg
+23:04:06 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/qz1hq9cqtvof1.jpeg
+23:04:06 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/qz1hq9cqtvof1.jpeg
+23:04:06 |gcs_manager.py (42) |INFO:| Uploaded qz1hq9cqtvof1.jpeg --> gs://reddit_images_bucket/qz1hq9cqtvof1.jpeg
+23:04:06 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/e8gfuevj5yof1.jpeg
+23:04:06 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/e8gfuevj5yof1.jpeg
+23:04:06 |gcs_manager.py (42) |INFO:| Uploaded e8gfuevj5yof1.jpeg --> gs://reddit_images_bucket/e8gfuevj5yof1.jpeg
+23:04:06 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/gdor8cf5jrof1.jpeg
+23:04:06 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/gdor8cf5jrof1.jpeg
+23:04:06 |gcs_manager.py (42) |INFO:| Uploaded gdor8cf5jrof1.jpeg --> gs://reddit_images_bucket/gdor8cf5jrof1.jpeg
+23:04:06 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/hluj20ru1tof1.jpeg
+23:04:06 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/hluj20ru1tof1.jpeg
+23:04:06 |gcs_manager.py (42) |INFO:| Uploaded hluj20ru1tof1.jpeg --> gs://reddit_images_bucket/hluj20ru1tof1.jpeg
+23:04:06 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/01i3szzgyoof1.jpeg
+23:04:06 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/01i3szzgyoof1.jpeg
+23:04:06 |gcs_manager.py (42) |INFO:| Uploaded 01i3szzgyoof1.jpeg --> gs://reddit_images_bucket/01i3szzgyoof1.jpeg
+23:04:06 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/k5u8s792asof1.jpeg
+23:04:06 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/k5u8s792asof1.jpeg
+23:04:06 |gcs_manager.py (42) |INFO:| Uploaded k5u8s792asof1.jpeg --> gs://reddit_images_bucket/k5u8s792asof1.jpeg
+23:04:06 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/4753yhiyjwof1.jpeg
+23:04:06 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/4753yhiyjwof1.jpeg
+23:04:07 |gcs_manager.py (42) |INFO:| Uploaded 4753yhiyjwof1.jpeg --> gs://reddit_images_bucket/4753yhiyjwof1.jpeg
+23:04:07 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/c0co9pztskof1.jpeg
+23:04:07 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/c0co9pztskof1.jpeg
+23:04:07 |gcs_manager.py (42) |INFO:| Uploaded c0co9pztskof1.jpeg --> gs://reddit_images_bucket/c0co9pztskof1.jpeg
+23:04:07 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/0dqejn3mdlof1.jpeg
+23:04:07 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/0dqejn3mdlof1.jpeg
+23:04:07 |gcs_manager.py (42) |INFO:| Uploaded 0dqejn3mdlof1.jpeg --> gs://reddit_images_bucket/0dqejn3mdlof1.jpeg
+23:04:07 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/v09bejrw4vof1.jpeg
+23:04:07 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/v09bejrw4vof1.jpeg
+23:04:07 |gcs_manager.py (42) |INFO:| Uploaded v09bejrw4vof1.jpeg --> gs://reddit_images_bucket/v09bejrw4vof1.jpeg
+23:04:07 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/cgos13scrwof1.jpeg
+23:04:07 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/cgos13scrwof1.jpeg
+23:04:07 |gcs_manager.py (42) |INFO:| Uploaded cgos13scrwof1.jpeg --> gs://reddit_images_bucket/cgos13scrwof1.jpeg
+23:04:07 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/30kxatedwsof1.jpeg
+23:04:07 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/30kxatedwsof1.jpeg
+23:04:07 |gcs_manager.py (42) |INFO:| Uploaded 30kxatedwsof1.jpeg --> gs://reddit_images_bucket/30kxatedwsof1.jpeg
+23:04:07 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/d0y5gb3fwkof1.jpeg
+23:04:07 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/d0y5gb3fwkof1.jpeg
+23:04:07 |gcs_manager.py (42) |INFO:| Uploaded d0y5gb3fwkof1.jpeg --> gs://reddit_images_bucket/d0y5gb3fwkof1.jpeg
+23:04:07 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/0xkhdoljglof1.jpeg
+23:04:07 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/0xkhdoljglof1.jpeg
+23:04:07 |gcs_manager.py (42) |INFO:| Uploaded 0xkhdoljglof1.jpeg --> gs://reddit_images_bucket/0xkhdoljglof1.jpeg
+23:04:08 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/htxzdyq1uoof1.jpeg
+23:04:08 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/htxzdyq1uoof1.jpeg
+23:04:08 |gcs_manager.py (42) |INFO:| Uploaded htxzdyq1uoof1.jpeg --> gs://reddit_images_bucket/htxzdyq1uoof1.jpeg
+23:04:08 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/dhsm9yv30lof1.jpeg
+23:04:08 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/dhsm9yv30lof1.jpeg
+23:04:08 |gcs_manager.py (42) |INFO:| Uploaded dhsm9yv30lof1.jpeg --> gs://reddit_images_bucket/dhsm9yv30lof1.jpeg
+23:04:08 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/k58jpswfjnof1.jpeg
+23:04:08 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/k58jpswfjnof1.jpeg
+23:04:08 |gcs_manager.py (42) |INFO:| Uploaded k58jpswfjnof1.jpeg --> gs://reddit_images_bucket/k58jpswfjnof1.jpeg
+23:04:08 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/26n39nq1atof1.jpeg
+23:04:08 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/26n39nq1atof1.jpeg
+23:04:08 |gcs_manager.py (42) |INFO:| Uploaded 26n39nq1atof1.jpeg --> gs://reddit_images_bucket/26n39nq1atof1.jpeg
+23:04:08 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/n4bay5eknmof1.jpeg
+23:04:08 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/n4bay5eknmof1.jpeg
+23:04:08 |gcs_manager.py (42) |INFO:| Uploaded n4bay5eknmof1.jpeg --> gs://reddit_images_bucket/n4bay5eknmof1.jpeg
+23:04:08 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/nddyqpm3apof1.jpeg
+23:04:08 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/nddyqpm3apof1.jpeg
+23:04:08 |gcs_manager.py (42) |INFO:| Uploaded nddyqpm3apof1.jpeg --> gs://reddit_images_bucket/nddyqpm3apof1.jpeg
+23:04:08 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/8v6qua03mnof1.jpeg
+23:04:08 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/8v6qua03mnof1.jpeg
+23:04:08 |gcs_manager.py (42) |INFO:| Uploaded 8v6qua03mnof1.jpeg --> gs://reddit_images_bucket/8v6qua03mnof1.jpeg
+23:04:09 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/jg1vv06oirof1.jpeg
+23:04:09 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/jg1vv06oirof1.jpeg
+23:04:09 |gcs_manager.py (42) |INFO:| Uploaded jg1vv06oirof1.jpeg --> gs://reddit_images_bucket/jg1vv06oirof1.jpeg
+23:04:09 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/19zn5sip6jof1.jpeg
+23:04:09 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/19zn5sip6jof1.jpeg
+23:04:09 |gcs_manager.py (42) |INFO:| Uploaded 19zn5sip6jof1.jpeg --> gs://reddit_images_bucket/19zn5sip6jof1.jpeg
+23:04:09 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ewpra36vuxof1.png
+23:04:09 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ewpra36vuxof1.png
+23:04:09 |gcs_manager.py (42) |INFO:| Uploaded ewpra36vuxof1.png --> gs://reddit_images_bucket/ewpra36vuxof1.png
+23:04:09 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/41kdo2512wof1.jpeg
+23:04:09 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/41kdo2512wof1.jpeg
+23:04:09 |gcs_manager.py (42) |INFO:| Uploaded 41kdo2512wof1.jpeg --> gs://reddit_images_bucket/41kdo2512wof1.jpeg
+23:04:09 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/sfpone1y9lof1.jpeg
+23:04:09 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/sfpone1y9lof1.jpeg
+23:04:09 |gcs_manager.py (42) |INFO:| Uploaded sfpone1y9lof1.jpeg --> gs://reddit_images_bucket/sfpone1y9lof1.jpeg
+23:04:09 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ewpra36vuxof1.png
+23:04:10 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ewpra36vuxof1.png
+23:04:10 |gcs_manager.py (42) |INFO:| Uploaded ewpra36vuxof1.png --> gs://reddit_images_bucket/ewpra36vuxof1.png
+23:04:10 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/nnfsd7b8epof1.jpeg
+23:04:10 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/nnfsd7b8epof1.jpeg
+23:04:10 |gcs_manager.py (42) |INFO:| Uploaded nnfsd7b8epof1.jpeg --> gs://reddit_images_bucket/nnfsd7b8epof1.jpeg
+23:04:10 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/hi9ujnxu0xof1.jpeg
+23:04:10 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/hi9ujnxu0xof1.jpeg
+23:04:10 |gcs_manager.py (42) |INFO:| Uploaded hi9ujnxu0xof1.jpeg --> gs://reddit_images_bucket/hi9ujnxu0xof1.jpeg
+23:04:10 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/o56sjyg7jkof1.jpeg
+23:04:10 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/o56sjyg7jkof1.jpeg
+23:04:10 |gcs_manager.py (42) |INFO:| Uploaded o56sjyg7jkof1.jpeg --> gs://reddit_images_bucket/o56sjyg7jkof1.jpeg
+23:04:10 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ctzlpgihajof1.jpeg
+23:04:10 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ctzlpgihajof1.jpeg
+23:04:10 |gcs_manager.py (42) |INFO:| Uploaded ctzlpgihajof1.jpeg --> gs://reddit_images_bucket/ctzlpgihajof1.jpeg
+23:04:10 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/e7mrest7hqof1.jpeg
+23:04:10 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/e7mrest7hqof1.jpeg
+23:04:10 |gcs_manager.py (42) |INFO:| Uploaded e7mrest7hqof1.jpeg --> gs://reddit_images_bucket/e7mrest7hqof1.jpeg
+23:04:10 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/om9w757bokof1.jpeg
+23:04:11 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/om9w757bokof1.jpeg
+23:04:11 |gcs_manager.py (42) |INFO:| Uploaded om9w757bokof1.jpeg --> gs://reddit_images_bucket/om9w757bokof1.jpeg
+23:04:11 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/hrwgvv3jfqof1.jpeg
+23:04:11 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/hrwgvv3jfqof1.jpeg
+23:04:11 |gcs_manager.py (42) |INFO:| Uploaded hrwgvv3jfqof1.jpeg --> gs://reddit_images_bucket/hrwgvv3jfqof1.jpeg
+23:04:11 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/td0uuxzoynof1.png
+23:04:11 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/td0uuxzoynof1.png
+23:04:11 |gcs_manager.py (42) |INFO:| Uploaded td0uuxzoynof1.png --> gs://reddit_images_bucket/td0uuxzoynof1.png
+23:04:11 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ujadb92pnkof1.jpeg
+23:04:11 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ujadb92pnkof1.jpeg
+23:04:11 |gcs_manager.py (42) |INFO:| Uploaded ujadb92pnkof1.jpeg --> gs://reddit_images_bucket/ujadb92pnkof1.jpeg
+23:04:11 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/fzboehdvbkof1.jpeg
+23:04:11 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/fzboehdvbkof1.jpeg
+23:04:11 |gcs_manager.py (42) |INFO:| Uploaded fzboehdvbkof1.jpeg --> gs://reddit_images_bucket/fzboehdvbkof1.jpeg
+23:04:11 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/1c4iw99t1lof1.jpeg
+23:04:11 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/1c4iw99t1lof1.jpeg
+23:04:11 |gcs_manager.py (42) |INFO:| Uploaded 1c4iw99t1lof1.jpeg --> gs://reddit_images_bucket/1c4iw99t1lof1.jpeg
+23:04:11 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/7ermr2pupoof1.jpeg
+23:04:11 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/7ermr2pupoof1.jpeg
+23:04:11 |gcs_manager.py (42) |INFO:| Uploaded 7ermr2pupoof1.jpeg --> gs://reddit_images_bucket/7ermr2pupoof1.jpeg
+23:04:12 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/jaa9sah3gkof1.jpeg
+23:04:12 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/jaa9sah3gkof1.jpeg
+23:04:12 |gcs_manager.py (42) |INFO:| Uploaded jaa9sah3gkof1.jpeg --> gs://reddit_images_bucket/jaa9sah3gkof1.jpeg
+23:04:12 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/wve4s4dqhrof1.jpeg
+23:04:12 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/wve4s4dqhrof1.jpeg
+23:04:12 |gcs_manager.py (42) |INFO:| Uploaded wve4s4dqhrof1.jpeg --> gs://reddit_images_bucket/wve4s4dqhrof1.jpeg
+23:04:12 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/x5iviy4rokof1.jpeg
+23:04:12 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/x5iviy4rokof1.jpeg
+23:04:12 |gcs_manager.py (42) |INFO:| Uploaded x5iviy4rokof1.jpeg --> gs://reddit_images_bucket/x5iviy4rokof1.jpeg
+23:04:12 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/n41lpcn0arof1.png
+23:04:12 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/n41lpcn0arof1.png
+23:04:12 |gcs_manager.py (42) |INFO:| Uploaded n41lpcn0arof1.png --> gs://reddit_images_bucket/n41lpcn0arof1.png
+23:04:12 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/ka6w93puakof1.jpeg
+23:04:12 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/ka6w93puakof1.jpeg
+23:04:12 |gcs_manager.py (42) |INFO:| Uploaded ka6w93puakof1.jpeg --> gs://reddit_images_bucket/ka6w93puakof1.jpeg
+23:04:12 |gcs_manager.py (32) |INFO:| Response Status Code: 200 for URL: https://i.redd.it/9c2u5o2vinof1.jpeg
+23:04:12 |gcs_manager.py (36) |INFO:| Downloading image from: https://i.redd.it/9c2u5o2vinof1.jpeg
+23:04:12 |gcs_manager.py (42) |INFO:| Uploaded 9c2u5o2vinof1.jpeg --> gs://reddit_images_bucket/9c2u5o2vinof1.jpeg
+23:11:30 |bq_manager.py (38) |ERROR:| Skipping row due to missing required fields: ['url'] for metadata: {'id': 'abc123', 'title': 'Sample Image', 'author': 'test_user', 'subreddit': 'test_subreddit', 'score': 100, 'url': None, 'filename': 'image.jpg', 'gcs_filename': 'gcs_image.jpg', 'gcs_url': 'gs://bucket/gcs_image.jpg', 'file_size_bytes': 2048, 'content_type': 'image/jpeg'}
+23:11:30 |bq_manager.py (58) |INFO:| Attempting to insert 0 rows into table draft-data-pipeline.metadata.reddit_images_metadata
+23:11:30 |bq_manager.py (74) |ERROR:| Error inserting metadata into BigQuery: 400 POST https://bigquery.googleapis.com/bigquery/v2/projects/draft-data-pipeline/datasets/metadata/tables/reddit_images_metadata/insertAll?prettyPrint=false: No rows present in the request.
+23:15:44 |bq_manager.py (55) |INFO:| Prepared row for insertion: id=abc123, filename=image.jpg
+23:15:44 |bq_manager.py (58) |INFO:| Attempting to insert 1 rows into table draft-data-pipeline.metadata.reddit_images_metadata
+23:15:44 |bq_manager.py (70) |INFO:| Inserted 1 rows into draft-data-pipeline.metadata.reddit_images_metadata

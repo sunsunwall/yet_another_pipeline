@@ -43,13 +43,17 @@ class APIClient:
         }
         
         url = f"{self.base_url}/r/{subreddit}/hot.json"
+        print(f"Fetching data from: {url}")
         params = {"limit": limit}
         
         response = requests.get(url, headers=headers, params=params)
+        print(f"Response Status Code: {response}")
         response.raise_for_status()
         
         data = response.json()
         image_posts = []
+        image_urls = []
+        image_filenames = []
         
         for post in data["data"]["children"]:
             post_data = post["data"]
@@ -61,18 +65,17 @@ class APIClient:
                     "subreddit": post_data["subreddit"],
                     "score": post_data["score"],
                     "url": post_data["url"],
-                    "filename": os.path.basename(post_data["url"]),
-                    "created_utc": post_data["created_utc"],
-                    "upload_timestamp": post_data["created_utc"],
-                    "num_comments": post_data["num_comments"],
-                    "permalink": post_data["permalink"]
+                    "filename": os.path.basename(post_data["url"])
                 }
+
                 image_posts.append(image_metadata)
-        
+                image_urls.append(post_data["url"])
+                image_filenames.append(os.path.basename(post_data["url"]))
+
         if save_json:
             self.save_to_json(image_posts, subreddit)
-        
-        return image_posts
+
+        return image_posts, image_urls, image_filenames
 
     def save_to_json(self, data, subreddit):
         filename = f"{subreddit}_images.json"
