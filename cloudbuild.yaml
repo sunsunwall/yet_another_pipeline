@@ -24,7 +24,7 @@ steps:
       - --platform=managed
       - --allow-unauthenticated
       - --set-env-vars=GCP_PROJECT_ID=$PROJECT_ID
-      - --set-secrets=REDDIT_CLIENT_ID=REDDIT-CLIENT-ID:latest,REDDIT_CLIENT_SECRET=REDDIT-CLIENT-SECRET:latest,REDDIT_USER_AGENT=REDDIT-USER-AGENT:latest
+      - --set-secrets=REDDIT_CLIENT_ID=REDDIT_CLIENT_ID:latest,REDDIT_CLIENT_SECRET=REDDIT_CLIENT_SECRET:latest,REDDIT_USER_AGENT=REDDIT_USER_AGENT:latest
 
   # Build and deploy bq_manager
   - name: 'gcr.io/cloud-builders/docker'
@@ -42,7 +42,7 @@ steps:
       - --platform=managed
       - --allow-unauthenticated
       - --set-env-vars=GCP_PROJECT_ID=$PROJECT_ID,BIGQUERY_DATASET_ID=${_BIGQUERY_DATASET_ID},BIGQUERY_TABLE_ID=${_BIGQUERY_TABLE_ID}
-      - --set-secrets=REDDIT_CLIENT_ID=REDDIT-CLIENT-ID:latest,REDDIT_CLIENT_SECRET=REDDIT-CLIENT-SECRET:latest,REDDIT_USER_AGENT=REDDIT-USER-AGENT:latest
+      - --set-secrets=REDDIT_CLIENT_ID=REDDIT_CLIENT_ID:latest,REDDIT_CLIENT_SECRET=REDDIT_CLIENT_SECRET:latest,REDDIT_USER_AGENT=REDDIT_USER_AGENT:latest
       - --service-account=${_SERVICE_ACCOUNT}
 
   # Build and deploy gcs_manager
@@ -61,7 +61,7 @@ steps:
       - --platform=managed
       - --allow-unauthenticated
       - --set-env-vars=GCP_PROJECT_ID=$PROJECT_ID,GCS_BUCKET_NAME=${_GCS_BUCKET_NAME}
-      - --set-secrets=REDDIT_CLIENT_ID=REDDIT-CLIENT-ID:latest,REDDIT_CLIENT_SECRET=REDDIT-CLIENT-SECRET:latest,REDDIT_USER_AGENT=REDDIT-USER-AGENT:latest
+      - --set-secrets=REDDIT_CLIENT_ID=REDDIT_CLIENT_ID:latest,REDDIT_CLIENT_SECRET=REDDIT_CLIENT_SECRET:latest,REDDIT_USER_AGENT=REDDIT_USER_AGENT:latest
       - --service-account=${_SERVICE_ACCOUNT}
 
   # Build and deploy orchestrator
@@ -80,7 +80,7 @@ steps:
       - --platform=managed
       - --allow-unauthenticated
       - --set-env-vars=GCP_PROJECT_ID=$PROJECT_ID,API_CLIENT_URL=${_API_CLIENT_URL},BQ_MANAGER_URL=${_BQ_MANAGER_URL},GCS_MANAGER_URL=${_GCS_MANAGER_URL}
-      - --set-secrets=REDDIT_CLIENT_ID=REDDIT-CLIENT-ID:latest,REDDIT_CLIENT_SECRET=REDDIT-CLIENT-SECRET:latest,REDDIT_USER_AGENT=REDDIT-USER-AGENT:latest
+      - --set-secrets=REDDIT_CLIENT_ID=REDDIT_CLIENT_ID:latest,REDDIT_CLIENT_SECRET=REDDIT_CLIENT_SECRET:latest,REDDIT_USER_AGENT=REDDIT_USER_AGENT:latest
       - --service-account=${_SERVICE_ACCOUNT}
 
   # Confirm successful build and deploy
