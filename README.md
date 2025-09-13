@@ -7,6 +7,15 @@ A testing project for CI/CD pipeline development and experimentation.
 
 This project serves as a sandbox for testing various pipeline configurations, automation workflows, and deployment strategies.
 
+## Tech Stack
+
+- **Languages**: Add programming languages used
+- **Frameworks**: List frameworks and libraries
+- **Tools**: CI/CD tools, testing frameworks, build tools
+- **Infrastructure**: Cloud platforms, containerization, orchestration
+- **Databases**: Database technologies if applicable
+- **Monitoring**: Logging and monitoring solutions
+
 ## Getting Started
 
 ### Prerequisites
@@ -50,3 +59,4 @@ This project includes configurations for testing:
 ## License
 
 Add your license information here.
+
