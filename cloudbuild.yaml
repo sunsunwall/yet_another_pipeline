@@ -1,7 +1,7 @@
 substitutions:
   _SERVICE_ACCOUNT: '474388833514-compute@developer.gserviceaccount.com'  # Replace with your actual service account
-  _API_CLIENT_URL: 'https://api-client-abc123.a.run.app'  # Replace with actual Cloud Run URL
-  _BQ_MANAGER_URL: 'https://bq-manager-abc123.a.run.app'  # Replace with actual Cloud Run URL
+  _API_CLIENT_URL: 'https://api-client-474388833514.europe-north1.run.app'  # Replace with actual Cloud Run URL
+  _BQ_MANAGER_URL: 'https://bq-manager-474388833514.europe-north1.run.app'  # Replace with actual Cloud Run URL
   _GCS_MANAGER_URL: 'https://gcs-manager-abc123.a.run.app'  # Replace with actual Cloud Run URL
   _GCS_BUCKET_NAME: 'reddit_images_bucket'  # From .env or set here
   _BIGQUERY_DATASET_ID: 'metadata'  # From .env or set here

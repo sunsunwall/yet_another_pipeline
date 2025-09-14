@@ -20,4 +20,4 @@ COPY src/ ./src/
 EXPOSE 8080
 
 # Run the service with uvicorn
-CMD ["uv", "run", "uvicorn", "src.api_client.app:app", "--host", "0.0.0.0", "--port", "$PORT"]
+CMD uv run uvicorn src.api_client.app:app --host 0.0.0.0 --port $PORT
